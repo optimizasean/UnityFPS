@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class WanderingAI : MonoBehaviour {
-    [SerializeField] private GameObject fireballPrefab;
+    [SerializeField] private GameObject fireballPrefab = null;
     private GameObject _fireball;
     public float speed = 3.0f;
     public float obstacleRange = 5.0f;
